@@ -30,6 +30,7 @@ class GameViewController: UIViewController {
             view.showsNodeCount = true
         }
     }
+    
 
     override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
         if UIDevice.current.userInterfaceIdiom == .phone {
